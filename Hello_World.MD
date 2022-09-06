@@ -9,6 +9,7 @@ navigate to the following URL in your browser:
 
 or enter token manually (input hidden):
 target saved
+```
 
 ``` 
 ~/concourse$ cat task.yml
@@ -20,7 +21,8 @@ image_resource:
 run:
   path: echo
   args: [hello world]
-  
+```
+
 ```  
 ~/concourse$ fly -t ci_prod execute -c task.yml
 executing build 30530121 at https://ci.concouse.net/builds/30530121
@@ -37,7 +39,7 @@ Status: Downloaded newer image for busybox@sha256:15a3c8a1b44b5ef66f9b4b2e1875b5
 docker.io/library/busybox@sha256:15a3c8a1b44b5ef66f9b4b2e1875b50302d100e116f1d4d5ede71d5ac63177c3
 
 Successfully pulled busybox@sha256:15a3c8a1b44b5ef66f9b4b2e1875b50302d100e116f1d4d5ede71d5ac63177c3.
-
+```
 
 selected worker: aws-99.113.144.16-16cc2
 running echo hello world
