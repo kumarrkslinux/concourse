@@ -37,9 +37,9 @@ docker.io/library/busybox@sha256:15a3c8a1b44b5ef66f9b4b2e1875b50302d100e116f1d4d
 Digest: sha256:15a3c8a1b44b5ef66f9b4b2e1875b50302d100e116f1d4d5ede71d5ac63177c3
 Status: Downloaded newer image for busybox@sha256:15a3c8a1b44b5ef66f9b4b2e1875b50302d100e116f1d4d5ede71d5ac63177c3
 docker.io/library/busybox@sha256:15a3c8a1b44b5ef66f9b4b2e1875b50302d100e116f1d4d5ede71d5ac63177c3
-
 Successfully pulled busybox@sha256:15a3c8a1b44b5ef66f9b4b2e1875b50302d100e116f1d4d5ede71d5ac63177c3.
-```
+
+
 
 selected worker: aws-99.113.144.16-16cc2
 running echo hello world
